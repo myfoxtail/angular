@@ -1,7 +1,7 @@
 PH = angular.module('PH', []);
 
 PH.directive('placeholder', function(){
-	// you should fine out by yourself browser data and browser version
+	// you should find out by yourself browser data and browser version
 	if( browser != "Explorer" || version >= 10) return false;
 	var directiveName = 'placeholder';
 	return {
