@@ -4,7 +4,7 @@
 
 PH = angular.module('PH', []);
 
-PH..directive('ngKeypress', function(){
+PH.directive('ngKeypress', function(){
 	var directiveName = 'ngKeypress';
 	return function(scope, element, attr) {
 		var fn = scope.$eval(attr[directiveName]);
